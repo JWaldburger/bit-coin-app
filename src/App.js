@@ -17,22 +17,38 @@ const App = () => {
   const [coins, updateCoins] = useState([]);
   //let coins = [];
 
-  // Define function to all API
+  //Define function to all API
   const fetchCoins = async () => {
 
-    updateLoading(true);
+    try {
+      updateLoading(true);
 
-    const { limit, start } = input;
+      const { limit, start } = input;
+      const data = await API.get('api222a5355', `/coins?limit=${limit}&start=${start}`);
+      updateCoins(data.coins)
 
-    const data = await API.get('api222a5355', `/coins?limit=${limit}&start=${start}`);
+      updateLoading(false);
+  
+    }
 
-    updateCoins(data.coins)
-    // coins = data.coins;
-    console.log(coins);
-
-    updateLoading(false);
-    
+    catch(err) {
+      console.error(err);
+    }
   };
+
+  // const fetchCoins = () => {
+
+  //     updateLoading(true);
+  //     const { limit, start } = input;
+
+  //     API.get('api222a5355', `/coins?limit=${limit}&start=${start}`)
+  //       .then(response => updateCoins(response.coins))
+  //       .catch(err => console.error(err))      
+  //     ;
+
+  //     updateLoading(false)
+
+  // };
 
   // Call fetchCoins function when component loads
   useEffect(
