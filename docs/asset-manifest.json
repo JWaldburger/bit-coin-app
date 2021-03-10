@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/bit-coin-app/static/css/main.9d5b29c0.chunk.css",
+    "main.js": "/bit-coin-app/static/js/main.b851f02b.chunk.js",
+    "main.js.map": "/bit-coin-app/static/js/main.b851f02b.chunk.js.map",
+    "runtime-main.js": "/bit-coin-app/static/js/runtime-main.a23be63c.js",
+    "runtime-main.js.map": "/bit-coin-app/static/js/runtime-main.a23be63c.js.map",
+    "static/js/2.5641654f.chunk.js": "/bit-coin-app/static/js/2.5641654f.chunk.js",
+    "static/js/2.5641654f.chunk.js.map": "/bit-coin-app/static/js/2.5641654f.chunk.js.map",
+    "static/js/3.17e6a564.chunk.js": "/bit-coin-app/static/js/3.17e6a564.chunk.js",
+    "static/js/3.17e6a564.chunk.js.map": "/bit-coin-app/static/js/3.17e6a564.chunk.js.map",
+    "index.html": "/bit-coin-app/index.html",
+    "static/css/main.9d5b29c0.chunk.css.map": "/bit-coin-app/static/css/main.9d5b29c0.chunk.css.map",
+    "static/js/2.5641654f.chunk.js.LICENSE.txt": "/bit-coin-app/static/js/2.5641654f.chunk.js.LICENSE.txt",
+    "static/media/logo.6ce24c58.svg": "/bit-coin-app/static/media/logo.6ce24c58.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.a23be63c.js",
+    "static/js/2.5641654f.chunk.js",
+    "static/css/main.9d5b29c0.chunk.css",
+    "static/js/main.b851f02b.chunk.js"
+  ]
+}
