@@ -11,6 +11,8 @@ import { API } from 'aws-amplify';
 import logo from './logo.svg';
 import './App.css';
 
+import { GitHubBornOn } from './GitHubBornOn';
+
 const App = () => {
 
   // Create coins variable and set to empty array
@@ -73,7 +75,9 @@ const App = () => {
 
 
   return (
+    <>
     <div className="App">
+      
 
   <input
     placeholder="Enter a starting index"
@@ -113,6 +117,8 @@ const App = () => {
       )
       }
     </div>
+    <GitHubBornOn/>
+    </>
   );
 }
 
